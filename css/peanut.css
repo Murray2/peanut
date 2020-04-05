@@ -1,0 +1,64 @@
+html {
+  background: url("../images/chocBack.jpg") no-repeat center fixed;
+  background-size: cover;
+  margin: 0px auto;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.5);
+  border-left: solid 4px darkgrey;
+  border-right: solid 4px darkgrey;
+  margin: 0px auto;
+  padding: 20px 180px;
+  width: 900px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px brown;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px brown;
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+div {
+  text-align: center;
+}
+
+.backBtn {
+  text-decoration: none;
+  font-variant: small-caps;
+  color: black;
+  text-shadow: 1px 1px brown;
+}
+
+a {
+    text-decoration: none;
+    color:darkred;
+}
+
+a:hover {
+  color: blue;
+}
+
+.center {
+  text-align: center;
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin: 80px;
+}
