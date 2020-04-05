@@ -1,1 +1,1 @@
-# peanut
+# Peanutbutter Truffles
